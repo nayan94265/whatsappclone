@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainsingupactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F4A58"
+    android:orientation="vertical"
+    tools:context=".signup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:clipChildren="false"
+        android:foregroundGravity="center"
+        android:gravity="center|top|center_vertical|fill_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:rotationX="32"
+            android:text="@string/sign_in"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:autofillHints=""
+            android:background="#3B4450"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:foregroundGravity="center_vertical"
+            android:hint="@string/Username"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:shadowColor="#FFFFFF"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:autofillHints=""
+            android:background="#3B4450"
+            android:ems="10"
+            android:hint="@string/Email"
+            android:inputType="textAutoCorrect|textWebEmailAddress|textPersonName"
+            android:padding="20dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#3B4450"
+            android:ems="10"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|textPassword"
+            android:padding="20dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/haveaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginStart="70dp"
+            android:text="@string/already_have_an_account">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:width="10dp"
+            android:background="#1E90FF"
+            android:backgroundTint="#1E90FF"
+            android:padding="20dp"
+            android:text="@string/sign_up"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:targetApi="lollipop" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

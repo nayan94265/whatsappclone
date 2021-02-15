@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Whatsapp</string>
+    <string name="Email"></string>
+    <string name="Username"></string>
+    <string name="Password"></string>
+   <!-- <string name="default_web_client_id">webclientid</string>
+     TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wappicon">wappicon</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="login_in">Login In</string>
+    <string name="to_create_account">to create account ?</string>
+
+
+
+    <string name="password"></string>
+    <string name="email_phone"></string>
+    <string name="passowrd">passowrd</string>
+    <string name="facebook_app_id">122683089721743</string>
+    <string name="fb_login_protocol_scheme">fb122683089721743</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="email_pho">email/phone</string>
+    <string name="sign_in">signin</string>
+
+
+</resources>
